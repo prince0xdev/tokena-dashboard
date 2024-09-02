@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-hidden {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Webkit browsers */
+  }
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Mona-Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mona-Sans Regular'), url('Mona-Sans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mona-Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mona-Sans Bold'), url('Mona-Sans-Bold.woff') format('woff');
+}
